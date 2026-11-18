@@ -1,0 +1,12 @@
+# XLS2RECON (dnsdumpster-recon-extract.py) dependencies
+#
+# Reading .xlsx / .xlsm workbooks requires NO third-party packages:
+# the reader is built on the Python standard library (zipfile + xml.etree).
+#
+# Python >= 3.8 is required (the script uses `from __future__ import annotations`
+# and other 3.8+ features).
+
+# Optional: only needed if you want to read legacy binary .xls files.
+# The script prints a helpful message if a .xls file is supplied without it.
+# For best results, save workbooks as .xlsx instead.
+xlrd>=2.0.1; python_version >= "3.8"
