@@ -15,13 +15,7 @@ dependencies are required for the normal case. Legacy `.xls` input needs the opt
 - 🧹 Deduplicates values, cleans MX priorities and trailing dots, flattens multi-line cells
 - 🛡️ Safe options: `--dry-run`, `--no-overwrite`, `--sort`
 - 🎨 Optional ASCII banner with color support
----
-## Screenshots
-**DNS Dumpster domain overview — the source of the Domain Profiler workbook:**
-![DNS Dumpster domain overview](<dns dumpster.png>)
-**Example scan / extracted output:**
-![Example scan output](<scan example.png>)
----
+
 ## Installation
 ```bash
 # Clone / download this folder, then just run the script with Python 3.8+
