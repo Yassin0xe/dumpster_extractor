@@ -6,7 +6,6 @@ file per artifact type — subdomains, e-mails, IPs, MX/NS records, reverse DNS,
 ASNs, countries, and an all-in-one combined file.
 Reading `.xlsx` files uses **only the Python standard library** (`zipfile` + `xml.etree`). No external
 dependencies are required for the normal case. Legacy `.xls` input needs the optional `xlrd` package.
----
 ## Features
 - 📦 Zero dependencies for `.xlsx` input (standard library only)
 - 🔍 Automatically detects the target domain and the DNS table inside the workbook
